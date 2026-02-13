@@ -3,5 +3,6 @@
     width: 75px;
     background-color: lightblue;
     border-radius: 50%;
-    background-image: url();
+    background-image: url('../logo.jfif');
+    background-size: cover;
 }
