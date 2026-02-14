@@ -6,3 +6,27 @@
     background-image: url('../logo.jfif');
     background-size: cover;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.fade-element {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.fade-element.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.nav-link.active {
+    background-color: #667eea;
+    color: white;
+}
+
+#mobile-menu.active {
+    display: block;
+}
